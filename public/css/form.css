@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2016, 7:51:15 PM
+    Author     : Halim
+*/
+
+.form-text,.form-select,.form-textarea{	
+    /*color: #666;*/
+    color: #000000;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 6px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -webkit-box-shadow: 0 4px 5px -5px rgba(0, 0, 0, 0.3) inset; 
+    -moz-box-shadow: 0 4px 5px -5px rgba(0, 0, 0, 0.3) inset; 
+    box-shadow: 0 4px 5px -5px rgba(0, 0, 0, 0.3) inset; 
+}
+.form-text:hover,.form-select:hover,.form-textarea:hover{	
+    border-color: #C5C7C9;
+    background-color:#FFFFFF; 
+}
+
+.form-text:focus,.form-select:focus,.form-textarea:focus{
+    /*background: #fff; */
+    border: 1px solid #4d8dff; 
+    -webkit-box-shadow: 0 0 3px rgba(0, 116, 239, 0.5), 0 4px 5px -5px rgba(0, 0, 0, 0.3) inset; 
+    -moz-box-shadow: 0 0 3px rgba(0, 116, 239, 0.5), 0 4px 5px -5px rgba(0, 0, 0, 0.3) inset; 
+    box-shadow: 0 0 3px rgba(0, 116, 239, 0.5), 0 4px 5px -5px rgba(0, 0, 0, 0.3) inset;
+}
+
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #C0C0C0;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #C0C0C0;
+}
+
+/*
+  button
+*/
+.form-button {
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #666;
+    padding: 6px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px; 
+    border-radius: 4px;
+}
+.form-button-blue {
+    border-color: #0071e0; 
+    background: #0079ff; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0096ff), to(#005dff)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#0096ff), to(#005dff)); 
+    background: -moz-linear-gradient(center top, #0096ff, #005dff); 
+    background: linear-gradient(#0096ff, #005dff);  
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+
+}
+.form-button-red{
+    border-color: #a70c0c; 
+    background: #e11c1c; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f62f2f), to(#cc0909)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#f62f2f), to(#cc0909)); 
+    background: -moz-linear-gradient(center top, #f62f2f, #cc0909); 
+    background: linear-gradient(#f62f2f, #cc0909); 
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.32);
+}
+.form-button-green{
+    border-color: #1f960f; background: #2aab18;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#34c520), to(#219211)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#34c520), to(#219211)); 
+    background: -moz-linear-gradient(center top, #34c520, #219211); 
+    background: linear-gradient(#34c520, #219211); 
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.32);
+}
+.form-button-grey{
+    border-color: #0e0e0e; background: #585858; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6b6b6b), to(#464646)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#6b6b6b), to(#464646)); 
+    background: -moz-linear-gradient(center top, #6b6b6b, #464646); 
+    background: linear-gradient(#6b6b6b, #464646); 
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.form-button-blue:hover, .form-button-blue:focus, .form-button-blue:active{
+    border-color: #0055a7; background: #016bdc; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#008aea), to(#024dcf)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#008aea), to(#024dcf)); 
+    background: -moz-linear-gradient(center top, #008aea, #024dcf); 
+    background: linear-gradient(#008aea, #024dcf);
+}
+.form-button-red:hover, .form-button-red:focus, .form-button-red:active{
+    border-color: #9d0b0b; background: #d61111; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f51b1b), to(#b80808)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#f51b1b), to(#b80808)); 
+    background: -moz-linear-gradient(center top, #f51b1b, #b80808); 
+    background: linear-gradient(#f51b1b, #b80808);
+}
+.form-button-green:hover, .form-button-green:focus, .form-button-green:active{
+    border-color: #1d8d0e;
+    background: #269916;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#2fb31d), to(#1d800f)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#2fb31d), to(#1d800f)); 
+    background: -moz-linear-gradient(center top, #2fb31d, #1d800f); 
+    background: linear-gradient(#2fb31d, #1d800f);
+}
+.form-button-grey:hover, .form-button-grey:focus, .form-button-grey:active{
+    background: #414141; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#585858), to(#2a2a2a)); 
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#585858), to(#2a2a2a)); 
+    background: -moz-linear-gradient(center top, #585858, #2a2a2a); 
+    background: linear-gradient(#585858, #2a2a2a);
+}
+
+/*
+  fieldset, legend 
+*/
+fieldset{
+    margin-top:5px;
+    padding:6px;
+    border:1px solid #CCCCCC;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    padding-bottom:15px;
+    margin-bottom:18px;
+}
+legend {
+    padding:1px 0;
+    font-size:1em;
+    font-weight:bold;
+    background:#D2E3F1; 
+    border:1px solid #CCCCCC;
+    padding:5px 10px;
+    margin-top:-0.4em;
+    margin-left:0.5em;
+    /*position:relative;*/
+    text-transform:none;
+    line-height:1.5em;
+    color:#333333;
+    top:0;
+    vertical-align:middle;
+    /*text-transform:uppercase;*/
+    -moz-border-radius:3px;
+    border-radius: 3px;
+}
+legend a{
+    color: #333333;
+    text-decoration:none;
+}
+legend a:hover{
+    text-decoration:none;
+}
+
+label{
+    min-width: 140px;
+    /*border: 1px solid red;*/
+    display: inline-block;
+}
+
+form{
+    font-size: 0.9em;
+}
+.errors{
+    font-size: 0.9em;
+    color: red;
+}
+
+.success{
+    font-size: 0.9em;
+    color: green;
+}
+
+/*
+  em for * 
+*/
+em{
+    color:red;
+    margin-left:5px;
+}
+.not_req{
+    margin-left:9px;
+}
